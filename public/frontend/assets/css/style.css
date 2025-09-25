@@ -1,0 +1,1250 @@
+/*Header Section*/
+.header-start-trial {
+    background-color: #ffffff;
+    color: #2387ca;
+    padding: 10px 40px !important;
+    font-size: 18px;
+    border-color: #2387ca;
+}
+.header-start-trial:hover {
+    color: #ffffff;
+    background-color: #0076ba;
+}
+.navbar #navbarSupportedContent, #navbarDropdown .dropdown-menu {
+    font-size: 20px;
+    font-weight: 500;
+}
+.header-part .navbar-nav .nav-item .nav-link {
+    color: #000000;
+    font-size: 18px;
+}
+.navbar .navbar-brand {
+    font-size: 40px;
+    color: #7f8080;
+}
+.header-part .navbar-nav .nav-item .nav-link:hover, .header-part .navbar-nav .nav-item .nav-link.active {
+    color: #2387ca !important;    
+}
+.header-part .dropdown-item.active, .header-part .dropdown-item:hover {
+    color: #2387ca !important;
+    background-color: #ffffff;
+}
+.header-part .dropdown-toggle::after {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(45deg);
+}
+.header-part .navbar-nav .nav-item:hover .dropdown-toggle::after {
+    border-color: #2387ca;
+}  
+.header-part .dropdown-menu .dropdown-item {
+    border-bottom: solid 1px #f5f5f5;
+    padding: 15px;
+}
+.header-part .nav-item .dropdown-menu {
+    font-size: 18px;
+    min-width: 15rem;
+}
+.header-part .dropdown-menu li:last-child .dropdown-item {
+    border-bottom: none;
+}
+/*Main part Home page*/
+
+/*Quick Section*/
+.quick-section {
+  background-color: #e6f5ff;
+}
+
+.quick-section h1{
+  font-size: 52px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.quick-section p{
+  font-size: 18px !important;
+  font-weight: 500;
+}
+.quick-start-trial {
+  background-color:#0076ba;  
+  padding: 15px 50px !important; 
+  font-size: 16px; 
+  color: #ffffff;
+}
+.quick-start-trial:hover {
+  color: #ffffff;
+  background-color: #3ea4db;
+}
+.quick-icons .fa-check {
+  color: #0076ba;
+}
+
+/*Toolkit Section*/
+.main-content .main-toolkit {
+background-color: #ffffff;
+}
+.main-content .main-toolkit-container {
+  background-color: #ffffff;
+}
+.main-toolkit-container p {
+  font-size: 20px !important;
+  font-weight: 500;
+}
+.main-toolkit-container .image-part {
+  display: block;
+}
+.main-toolkit-container .image-part img {
+  margin-right: 40px;
+}
+.toolkit-col-part h1 {
+  font-weight: bold;
+}
+
+/*Inventory section*/
+.main-content .inventory-section {
+  background-color: #ffffff;
+}
+.inventory-col .connect-kika {
+  color: #0076ba; 
+  font-weight: 400;
+}
+.inventory-col .inventory-desc {
+  font-size: 18px !important;
+  font-weight: 500;
+}
+.inventory-col h1 {
+  font-weight: bold;
+}
+
+/*Experience Section*/
+.main-part{
+  background-color: #0076ba;
+}
+.main-part .experience-section {
+  background-color: #0076ba;
+}
+.experience-section p {
+  font-size: 18px !important;
+}
+.experience-section .experience-start-trial {
+  background-color:#fff;  
+  padding: 15px 50px !important; 
+  font-size: 20px; 
+  color: #0369a1;
+}
+.experience-section .experience-start-trial:hover {
+  color: #ffffff;
+  background-color: #3ea4db;
+}
+
+/*why kika section*/
+.img-cont-part .border-secondary {
+  border-color: #6c757d36!important;
+  padding: 25px;
+}
+.img-cont-part .border-secondary h4 {
+  font-size: 32px;
+}
+.img-cont-part .border-secondary p {
+  font-size: 20px;
+}
+
+/*Main part Home page End*/
+
+
+/*Main part About page*/
+
+/*about inventory*/
+.about-inventory {
+  background-color: #e6f5ff;
+}
+.about-cont-inventory .about-cont-part {
+  letter-spacing: 2px;
+  font-size: 52px;
+}
+.about-cont-inventory .about-para-part {
+  font-size: 20px;
+}
+
+/* Letter Part*/
+.about-letter .letter-head .letter-head-part1 {
+  font-size: 20px;
+  color: #288ccd;
+  font-weight: 500;
+}
+.about-letter .letter-head .letter-head-part2 {
+  font-weight: bold;
+  font-size: 48px;
+}
+.shadow-box-example {
+  height: 500px;
+  width: 100%;
+}
+.letter-box p {
+  font-size: 20px;
+}
+.about-box .letter-box {
+  padding:95px;
+  border-radius: 30px;
+  border-color: #7f8080;
+}
+.about-box .letter-box p{
+  margin-bottom: 30px;
+}
+.author-main img {
+    width: 85px;
+    height: 115px;
+    padding: 0;
+}
+.author-main h5 {
+  font-weight: 500;
+  margin-bottom: 0px !important;
+}
+.author-main p {
+  font-size:16px;
+}
+
+/*get started section*/
+.about-get-started {
+  background-color: #0076ba;    
+}
+.about-get-started .about-started-col-part .get-about-start-trial {
+  background-color: #ffffff;
+  padding: 15px 50px !important;
+  font-size: 20px;
+  color: #0369a1;
+}
+.about-get-started .about-started-col-part2 img {
+  width: 500px;
+}
+.about-get-started .about-started-col-part .get-about-start-trial:hover {
+  color: #ffffff;
+  background-color: #3ea4db;
+}
+  
+/*Main part About page End*/
+
+
+/* Product Uplift Start*/
+.product_uplift .uplift-main-part {
+  background-color: #e6f5ff;
+}
+.product_uplift .uplift-main-part .uplift-video-section h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.uplift-video-section .uplift-pdf {
+  font-size: 20px;
+  color: #2387ca;
+}
+.uplift-video-section iframe {
+  width: 727px;
+  height: 500px;
+}
+.uplift-section-2 ul li {
+  font-size: 22px;
+}
+.uplift-section-2 .col {
+  padding: 0 130px;
+}
+
+/* Product Uplift End */
+
+/*Docs & guides start*/
+.implementing-kika .implementing-kika-section1, .maximising-subscription .maximising-subscription-section1, .faq-sections .implementing-kika-section1 {
+    background-color: #e6f5ff;
+}
+.implementing-kika-header h1, .maximising-subscription-header h1, .faq-sections .implementing-kika-section2 h1 {
+    font-weight: bold; 
+    letter-spacing: 2px;
+    font-size: 52px;
+}
+.implementing-kika-header p, .maximising-subscription-header p, .faq-sections p {
+    font-size: 22px;
+    font-weight: 400;
+}
+.implementing-kika .implementing-kika-section2, .maximising-subscription-section2, .faq-sections .implementing-kika-section2 {
+    background-color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+}
+.implementing-kika-section2 .implementing-kika-h3 {
+  font-weight: 700;
+}
+
+.maximising-subscription-section2 p,  .maximising-subscription-section2 h3{
+  padding: 0 100px;
+}
+.implementing-kika-section2 {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+.maximising-subscription-section2 h3 {
+    font-weight: bold;
+}
+
+/*Docs & guides end*/
+
+/*Kika plan start*/
+.pricing_table .kika-main-part {
+  background-color: #e6f5ff;
+}
+.kika-plans-header h1 {
+  font-weight: bold; 
+  letter-spacing: 2px;
+  font-size: 52px;
+}
+.kika-plans-header p {
+  font-size: 22px;
+  font-weight: 400;
+}
+.kika-plans-header .kika-plans-btn {
+  background-color: #2387ca;
+  color: #ffffff;
+  padding: 10px 40px !important;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.price-experience-free-trail .price-experience-start-trial {
+  background-color: #2387ca;
+  color: #ffffff;
+  padding: 10px 40px !important;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.price-experience-free-trail p {
+  font-size: 20px;
+}
+.mobility-tab a, .moving-tab a, .contractor-tab a {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.mobility-tab a.active, .moving-tab a.active, .contractor-tab a.active {
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #ffffff !important;
+}
+.moving-tab a {
+  color: #ffffff;
+  background-color: #2387ca !important;
+}
+.contractor-tab a, .mobility-tab a {
+  color: #ffffff;
+  background-color: #50bcfa !important; 
+}
+.mobility-content .fa-check, .moving-content .fa-check, .contractor-content .fa-check {
+  color: #2387ca;
+}
+.mobility-content .fa-minus, .moving-content .fa-minus, .contractor-content .fa-minus  {
+  color: #d7d7d7;
+}
+.mobility-content .info-icon, .moving-content .info-icon, .contractor-content .info-icon {
+color: #b5b5b5;
+}
+.mobility-faq {
+  background-color: #e6f5fe;
+}
+.mobility-faq-col1 h2 {
+  font-size: 52px;
+}
+.mobility-faq-col2 p {
+  font-weight: 500;
+  font-size: 17px;
+}
+.mobility-faq-col2 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}   
+.mobility-faq-col2 h5 {
+    font-size: 25px;
+}
+  
+
+.mobility-free {
+  font-size: 50px;    
+}
+.mobility-head {
+  font-size: 20px;
+}
+.mobility-content {
+  font-size: 25px;
+}
+
+.moving-free-30 {
+  font-size: 18px;
+}
+.moving-content {
+  font-size: 25px;
+}
+.moving-kika-direct-head, .moving-basic-head, .moving-plus-head {
+  font-weight: 700;
+}
+.moving-kika-direct-price {
+  font-size: 45px;
+}
+.kika-direct-sup {
+  vertical-align: top;
+  top: 0.5rem;
+}
+.kika-direct-inventory {
+  font-size: 13px;
+}
+.kika-direct-gst {
+  font-size: 10px;
+}
+.moving-enterprice-col .moving-enterprise {
+  padding: 58px;
+  border-radius: 22px;
+}
+.moving-enterprise-btn {
+  background-color: #ffffff;
+  color: #2387ca;
+  padding: 10px 40px !important;
+  font-size: 30px;
+  margin-right: 10px;
+  border-color: #2387ca;
+}
+.moving-enterprise-btn:hover {
+  color: #ffffff;
+  background-color: #0076ba;
+}
+.kika-direct-sup, .kika-direct-sub {
+  font-size: 12px;
+}
+.mobility-table tr th, .moving-table tr th, .contractor-table tr th {
+  vertical-align: top;
+}
+.kika-direct-devices {
+  font-weight: 400;
+}
+.moving-small {
+  color: #353333;
+  font-weight: 400;
+}
+/* Contractor tab */
+.kika-plan-heading {
+  font-size: 18px;
+  font-weight: 500;
+}
+.contractor-content {
+  font-size: 25px;
+}
+  
+  
+
+
+/*Kika plan end*/
+
+/*Footer section*/
+
+.footer .footer-row {
+  font-size: 17px;
+  padding-bottom: 10px !important;
+}
+.footer .footer-row ul {
+  list-style: none;
+}
+.footer .footer-row ul li a {
+  text-decoration: none!important;
+  color: #000000;
+}
+.footer .footer-row ul li a:hover {
+  color: #2387ca !important; 
+}
+/*pricing page footer*/
+.footer .pricing-footer {
+  background-color: #2387ca;
+  color: #ffffff;
+}
+.footer .pricing-footer ul li a{
+  color: #ffffff;
+  font-weight: 400;
+}
+.footer .pricing-footer ul li a:hover{
+  color: #ffffff !important;
+}
+.footer .pricing-copyright-footer {
+  font-weight: 500;
+}
+.inventory-col {
+    margin-top: 125px;
+}
+.kika-main-part .nav-link:hover {
+    color: #fff; 
+    border-color: transparent;
+}
+.kika-main-part .nav-link.active:hover {
+    color: #495057;
+}
+
+/*Media Query*/
+@media screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        top: 62px;
+    }
+    .navbar-nav .nav-item {
+        padding: 0 5px;
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    .inventory-col h1, 
+    .toolkit-col-part h1, 
+    .experience-section h1 {
+        font-size: 52px;
+    }
+    .inventory-col .inventory-desc, 
+    .toolkit-col-part p,
+    .experience-section p  {
+        font-size: 28px !important;
+    }
+    .experience-start-trial {
+        font-size: 30px !important;
+    }
+    .footer .footer-row h5{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .footer .footer-row {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .footer .text-secondary {
+        font-size: 22px;
+    }
+    .uplift-video-section iframe {
+        width: 1000px;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+  .uplift-section-2 ul li {
+      font-size: 23px;
+  }
+  .navbar #navbarSupportedContent, #navbarDropdown .dropdown-menu, .header-start-trial {
+      font-size: 21px;
+  }
+  .quick-col-part h1 {
+      font-size: 56px;
+  }
+  .icon-text-part .fa-check {
+      font-size: 20px;
+  }
+  .quick-col-part p, .quick-start-trial, .quick-col-part .icon-text-part span {
+      font-size: 24px !important;
+  }
+  .quick-start-trial {
+      font-size: 22px;
+  }
+  .inventory-col h1, .toolkit-col-part h1, .experience-section h1 {
+      font-size: 40px;
+  }
+  .inventory-col .inventory-desc, .toolkit-col-part p, .quick-col-part .icon-text-part span, .experience-section p {
+      font-size: 23px !important;
+  }
+  .inventory-col .connect-kika, .quick-col-part p {
+      font-size: 23px !important;
+  }
+  .experience-start-trial {
+      font-size: 24px !important;
+  }
+  .footer .footer-row {
+      font-size: 20px;
+      font-weight: 500;
+  }
+  .footer .text-secondary {
+      font-size: 17px;
+  }
+  .footer .footer-row {
+      font-size: 17px;
+      padding-bottom: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+    .quick-col-part .icon-text-part span {
+        font-size: 22px !important;
+    }
+    .quick-start-trial {
+        font-size: 21px;
+    }
+    .inventory-col .connect-kika, .quick-col-part p {
+        font-size: 24px !important;
+    }
+    .quick-col-part h1 {
+        font-size: 56px;
+    }
+    .inventory-col .connect-kika {
+        font-size: 20px !important;
+    }
+    .inventory-col h1, .main-toolkit-container h1 {
+        font-size: 40px;
+    }
+    .inventory-col .inventory-desc, .main-toolkit-container p{
+        font-size: 23px !important;
+    }
+    .img-cont-part .border-secondary h4 {
+        font-size: 30px;
+    }
+    .img-cont-part .border-secondary p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .quick-col-part h1 {
+        font-size: 45px;
+    }
+    .inventory-col .connect-kika, .quick-col-part p {
+        font-size: 21px !important;
+    }
+    .quick-col-part p, .quick-start-trial, .quick-col-part .icon-text-part span, .experience-start-trial {
+        font-size: 17px !important;
+    }
+    .quick-start-trial, .experience-start-trial {
+        padding: 15px 36px !important;
+    }
+    .inventory-col h1, .main-toolkit-container h1 {
+        font-size: 36px;
+    }
+    .inventory-col .inventory-desc, .main-toolkit-container p {
+        font-size: 20px !important;
+    }
+    .footer .footer-row h5 {
+        font-size: 28px;
+    }
+    .footer .footer-row {
+        font-size: 18px;
+    }
+    .nav-item .dropdown-menu {
+        font-size: 16px;
+    }
+    .footer .text-secondary {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .uplift-section-2 ul li {
+        font-size: 18px;
+    }
+    .header-start-trial {
+        padding: 10px 40px !important;
+    }
+    .inventory-col-2 img {
+        width: 550px;
+    }
+    .img-cont-part .border-secondary h4 {
+        font-size: 28px;
+    }
+    .img-cont-part .border-secondary p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .header-start-trial {
+        font-size: 16px;
+    }
+    .navbar #navbarSupportedContent, #navbarDropdown .dropdown-menu {
+        font-size: 16px;
+    }
+    .quick-col-part-2 img {
+        width: 500px;
+    }
+    .inventory-col .inventory-desc, .main-toolkit-container p {
+        font-size: 19px !important;
+    }
+    .inventory-col h1, .main-toolkit-container h1 {
+        font-size: 33px;
+    }
+    .inventory-col .inventory-desc, .toolkit-col-part p, .quick-col-part .icon-text-part span, .experience-section p {
+        font-size: 19px !important;
+    }
+    .inventory-col .connect-kika, .quick-col-part p {
+        font-size: 19px !important;
+    }
+    .footer .footer-row h5 {
+        font-size: 23px;
+    }
+    .footer .footer-row {
+        font-size: 16px;
+    }
+    .uplift-video-section iframe {
+        width: 100%;
+        height: 500px;
+    }
+    .uplift-video-section .delivery-outturn-text, .uplift-video-section .screen-tranship-text {
+        font-size: 44px !important;
+    }
+    .moving-content {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .quick-col-part-2 img {
+        width: 455px;
+        height: 455px;
+    }
+    .inventory-col-2 img {
+        width: 450px;
+    }
+    .quick-col-part h1 {
+        font-size: 38px;
+    }
+    .inventory-col .connect-kika, .quick-col-part p {
+        font-size: 17px !important;
+    }
+    .inventory-col .inventory-desc, .toolkit-col-part p, .quick-col-part .icon-text-part span, .experience-section p {
+        font-size: 17px !important;
+    }
+    .inventory-col h1, .main-toolkit-container h1 {
+        font-size: 32px;
+    }
+    .nav-item .dropdown-menu {
+        font-size: 14px !important;
+    }
+    /*about page*/
+    .about-get-started .about-started-col-part2 img {
+        width: 450px;
+    }
+    .uplift-video-section .delivery-outturn-text, .uplift-video-section .screen-tranship-text {
+        font-size: 42px !important;
+    }
+
+}
+@media only screen and (max-width: 992px) {
+    .uplift-video-section .delivery-outturn-text, 
+    .uplift-video-section .screen-tranship-text {
+        font-size: 41px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .header-start-trial {
+        margin-left: 5px;
+    }
+    .header-right-part {
+        display: block !important;
+    }
+    .quick-col-part-2 img {
+        width: 500px;
+    }
+    .main-toolkit-container {
+        padding: 0 !important;
+    }
+    .main-toolkit-container p {
+        font-size: 16px !important;
+    }
+    .quick-col-part {
+        text-align: center;
+    }
+    .inventory-col h1, .main-toolkit-container h1 {
+        font-size: 30px;
+    }
+    .img-cont-part .border-secondary {
+        border: none !important;
+    }
+    .footer .text-secondary {
+        font-size: 14px;
+    }
+
+    /*about us*/
+    .about-box .letter-box {
+        padding: 40px;
+    }
+    .about-letter {
+        max-width: 830px;
+    }
+    .about-get-started .about-started-col-part {
+        text-align: center;
+    }
+    .about-get-started .about-started-col-part2 img {
+        width: 100%;
+    }
+    .about-get-started .about-started-row-part {
+        padding: 0px !important;
+    }
+
+    .uplift-video-section iframe {
+        width: 100%;
+        height: 409px;
+    }
+    .uplift-video-section .screen-tranship-text {
+        font-size: 32px !important;
+    }
+    .price-experience-free-trail h1 {
+        font-size: 32px;
+    }
+    .maximising-subscription-section2 p {
+        padding: 0px; 
+    }
+    .header-part .navbar-nav .nav-item .nav-link,
+    .header-part .dropdown-menu .dropdown-item {
+        padding: 8px;
+    }
+    .header-part .dropdown-toggle::after {
+        float: right;
+        transform: rotate(45deg) translate(6px, 8px);
+    }
+    .header-part .nav-item .dropdown-menu {
+        box-shadow: none !important;
+        border: solid 1px #f5f5f5 !important;
+    }
+}
+@media only screen and (max-width: 834px) {
+    .mobility-content {
+        font-size: 23px;
+    }
+    .contractor-content {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .main-toolkit-container p {
+        font-size: 15px !important;
+    }
+    .main-toolkit-container .image-part img {
+        margin-right: 0px;
+    }
+    .uplift-video-section iframe {
+        width: 100%;
+        height: 365px;
+    }
+    .uplift-video-section .screen-tranship-text {
+        font-size: 31px !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .main-toolkit-container p {
+        font-size: 18px !important;
+    }
+    .about-get-started .about-started-col-part .get-about-start-trial {
+        padding: 15px 37px !important;
+        font-size: 16px;
+    }
+    .about-cont-inventory .about-cont-part {
+        font-size: 45px;
+    }
+    .about-letter .letter-head .letter-head-part2 {
+        font-size: 45px;
+    }
+    .uplift-video-section .screen-tranship-text {
+        font-size: 30px !important;
+    }
+    .price-experience-free-trail h1 {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .toolkit-col-part h1 {
+        font-size: 28px !important;
+    }
+    .experience-section {
+        padding: 0 !important;
+    }
+    .about-started-row-part .about-started-col-part2 {
+        padding: 0px;
+    }
+    .about-letter .about-box {
+        width: calc(100% - 48px);
+        margin: 0 auto;
+    }
+    .about-box .letter-box {
+        padding: 20px;
+    }
+    .uplift-video-section iframe {
+        width: 100%;
+        height: 300px;
+    }
+    .uplift-video-section .screen-tranship-text {
+        font-size: 28px !important;
+    }
+    .price-experience-free-trail p {
+        font-size: 16px;
+    }
+    .mobility-faq-col2 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .uplift-section-2 .col {
+        padding: 0px;
+    }
+    .implementing-kika-section2 {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .inventory-col .inventory-desc, .toolkit-col-part p, .experience-section p {
+        font-size: 16px !important;
+    }
+    .about-cont-inventory .about-cont-part {
+        font-size: 40px;
+    }
+    .about-letter .letter-head .letter-head-part2 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .letter-box p {
+        font-size: 18px;
+    }
+    .product_uplift .uplift-main-part .uplift-video-section h1 {
+        font-size: 42px;
+        font-weight: 700;
+    }
+    .uplift-video-section .delivery-outturn-text, .uplift-video-section .screen-tranship-text {
+        font-size: 40px !important;
+    }
+    .implementing-kika-header h1, .maximising-subscription-header h1 {
+        font-size: 48px;
+    }
+    .implementing-kika-header p, .maximising-subscription-header p, .faq-sections p {
+        font-size: 19px;
+    }
+    .mobility-content {
+        font-size: 18px;
+    }
+    .mobility-free {
+        font-size: 40px;
+    }
+    .implementing-kika .implementing-kika-section2, .maximising-subscription-section2 {
+        font-size: 19px
+    }
+}
+
+
+@media only screen and (max-width: 575px) {
+    .quick-col-part {
+        text-align: center;
+    }
+    .toolkit-col-part h1 {
+        font-size: 24px !important;
+    }
+    .main-toolkit-container p {
+        font-size: 16px !important;
+    }
+    .about-cont-inventory .about-cont-part {
+        font-size: 35px;
+    }
+    .about-letter .letter-head .letter-head-part2 {
+        font-size: 35px;
+    }
+    .about-get-started .about-started-col-part .get-about-start-trial {
+        font-size: 15px;
+    }
+    .implementing-kika-header p, .maximising-subscription-header p {
+        font-size: 17px;
+    }
+    .enterprise-header {
+        text-align: center !important;
+    }
+    .implementing-kika .implementing-kika-section2, .maximising-subscription-section2 {
+      font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .inventory-section img {
+        width: 382px;
+    }
+    .quick-col-part-2 img {
+        width: 390px;
+        height: 300px;
+    }
+    .quick-section p {
+        font-size: 16px !important;
+    }
+    .icon-text-part {
+        display: block;
+    }
+    .quick-col-part h1 {
+      font-size: 32px;
+    }
+    .toolkit-col-part h1 {
+        font-size: 21px !important;
+        margin-bottom: 20px !important;
+    }
+    .inventory-col {
+        margin-top: 0px;
+    }
+    .inventory-col h1, .main-toolkit-container h1 {
+        font-size: 21px;
+    }
+    .experience-section h1 {
+        font-size: 28px;
+    }
+    .about-cont-inventory .about-cont-part {
+        font-size: 30px;
+    }
+    .about-letter .letter-head .letter-head-part2 {
+        font-size: 30px;
+    }
+    .letter-box p {
+        font-size: 15px;
+    }
+    .product_uplift .uplift-main-part .uplift-video-section h1 {
+        font-size: 38px;
+    }
+    .uplift-video-section .delivery-outturn-text, .uplift-video-section .screen-tranship-text {
+        font-size: 27px !important;
+    }
+    .uplift-video-section .uplift-tutorial-text {
+        font-size: 37px !important;
+    }
+    .implementing-kika-header h1, .maximising-subscription-header h1 {
+        font-size: 38px;
+    }
+    .implementing-kika .implementing-kika-section2, .maximising-subscription-section2,  .faq-sections .implementing-kika-section2, .faq-sections p {
+        font-size: 16px;
+    }
+    .price-experience-free-trail h1 {
+        font-size: 28px;
+    }
+    .price-experience-free-trail p {
+        font-size: 14px;
+    }
+    .moving-enterprise-btn {
+        padding: 10px 30px !important;
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .quick-col-part-2 img {
+        width: 335px;
+    }
+    .main-toolkit-container .image-part img {
+        margin-right: 0px;
+    }
+    .toolkit-col-part h1 {
+        font-size: 24px;
+    }
+    .inventory-section img {
+        width: 330px;
+    }
+    .quick-section p {
+        font-size: 14px !important;
+    }
+    .quick-col-part h1 {
+      font-size: 27px;
+    }
+    .experience-section h1 {
+        font-size: 24px;
+    }
+    .about-cont-inventory .about-cont-part {
+        font-size: 28px;
+    }
+    .about-letter .letter-head .letter-head-part2 {
+        font-size: 28px;
+    }
+    .about-cont-inventory .about-para-part {
+        font-size: 18px;
+    }
+    .about-letter .letter-head .letter-head-part1 {
+        font-size: 16px;
+    }
+    .about-get-started .about-started-col-part h1 {
+        font-size: 24px;
+    }
+    .about-get-started .about-started-col-part p {
+        font-size: 14px;
+    }
+    .uplift-video-section iframe {
+        width: 100%;
+        height: 209px;
+    }
+    .product_uplift .uplift-main-part .uplift-video-section h1 {
+        font-size: 36px;
+    }
+    .uplift-video-section .uplift-tutorial-text {
+        font-size: 30px !important;
+    }
+    .implementing-kika-header h1, .maximising-subscription-header h1 {
+        font-size: 32px;
+    }
+    .price-experience-free-trail h1 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .quick-col-part-2 img {
+        width: 320px;
+    }
+    .toolkit-col-part h1 {
+        font-size: 23px;
+        margin-bottom: 20px !important;
+    }
+    .toolkit-col-part p {
+        margin-bottom: 20px !important;
+    }
+    .quick-col-part h1 {
+      font-size: 26px;
+    }
+    .toolkit-col-part h1 {
+        font-size: 20px !important;
+    }
+    .about-get-started .about-started-col-part h1 {
+        font-size: 22px;
+    }
+    .about-get-started .about-started-col-part h1 {
+        font-size: 18px;
+    }
+    .about-get-started .about-started-col-part .get-about-start-trial {
+        padding: 15px 24px !important;
+    }
+    .uplift-video-section .delivery-outturn-text {
+        font-size: 25px !important;
+    }
+    .uplift-video-section .screen-tranship-text {
+        font-size: 26px !important;
+    }
+    .uplift-video-section .uplift-tutorial-text {
+        font-size: 28px !important;
+    }
+    .implementing-kika-header h1, .maximising-subscription-header h1 {
+        font-size: 30px;
+    }
+    .implementing-kika-header p, .maximising-subscription-header p {
+        font-size: 14px;
+    }
+    .kika-plans-header p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .quick-start-trial,
+    .experience-section .experience-start-trial {
+        padding: 15px !important;
+        font-size: 18px;
+    }
+    .quick-col-part-2 img {
+        width: 285px;
+    }
+    .quick-section h1 {
+      font-size: 46px;
+    }
+    .toolkit-col-part h1 {
+        font-size: 22px !important;
+    }
+    .inventory-section img {
+        width: 272px;
+    }
+    .about-cont-inventory .about-cont-part {
+        font-size: 24px;
+    }
+    .about-letter .letter-head .letter-head-part2 {
+        font-size: 24px;
+    }
+    .about-letter .letter-head .letter-head-part1 {
+        font-size: 15px;
+    }
+    .about-get-started .about-started-col-part .get-about-start-trial {
+        padding: 15px 30px !important;
+        font-size: 12px;
+    }
+    .product_uplift .uplift-main-part .uplift-video-section h1 {
+        font-size: 30px;
+    }
+    .uplift-video-section .uplift-pdf {
+        font-size: 18px;
+        color: #2387ca;
+    }
+    .uplift-video-section .delivery-outturn-text {
+        font-size: 22px !important;
+    }
+    .uplift-video-section .screen-tranship-text {
+        font-size: 24px !important;
+    }
+    .implementing-kika-header h1, .maximising-subscription-header h1 {
+        font-size: 26px;
+    }
+    .kika-plans-header h1 {
+        font-size: 48px;
+    }
+    .price-experience-free-trail p {
+        font-size: 13px;
+    }
+    .price-experience-free-trail .price-experience-start-trial {
+        padding: 10px 27px !important;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .quick-col-part-2 img {
+        height: 245px;
+        width: 230px;
+    }
+    .quick-section h1 {
+      font-size: 40px;
+    }
+    .inventory-section img {
+        width: 242px;
+    }
+    .about-cont-inventory .about-cont-part {
+        font-size: 20px;
+    }
+    .about-cont-inventory .about-para-part {
+        font-size: 14px;
+    }
+    .about-letter .letter-head .letter-head-part2 {
+        font-size: 20px;
+    }
+    .about-letter .letter-head .letter-head-part1 {
+        font-size: 13px;
+    }
+    .about-letter {
+        padding: 0px;
+    }
+    .letter-box-col {
+        padding: 0px;
+    }
+    .uplift-video-section iframe {
+        width: 100%;
+        height: 100%;
+    }
+    .uplift-video-section .uplift-pdf {
+        font-size: 17px;
+        color: #2387ca;
+    }
+    .uplift-video-section .delivery-text {
+        font-size: 28px !important;
+    }
+    .uplift-video-section .tranship-text {
+        font-size: 28px !important;
+    }
+    .maximising-subscription-header h1 {
+        font-size: 24px;
+    }
+    .kika-plans-header h1 {
+        font-size: 36px;
+    }
+    .kika-plans-header p {
+        font-size: 15px;
+    }
+    .kika-plans-header .kika-plans-btn {
+        padding: 10px 22px !important;
+        font-size: 13px;
+    }
+    .price-experience-free-trail h1 {
+        font-size: 20px;
+    }
+    .price-experience-free-trail .price-experience-start-trial {
+        font-size: 12px;
+    }
+    .enterprise-header p {
+        font-size: 14px;
+    }
+    .moving-enterprise-btn {
+        font-size: 16px;
+    }
+}

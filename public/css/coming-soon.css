@@ -1,0 +1,141 @@
+button:focus{
+	outline: none !important;
+}
+.mb-5{
+	margin-bottom: 50px !important;
+}
+.mb-25{
+	margin-bottom: 25px !important;
+}
+.mt-25{
+	margin-top: 25px !important;
+}
+.d-flex{
+	display: flex;
+}
+.justify-content-center{
+	justify-content: center;
+}
+.flex-wrap{
+	flex-wrap: wrap;
+}
+.d-inline-block{
+	display: inline-block;
+}
+.w-100{
+	width: 100%;
+}
+.mx-auto{
+	margin: 0 auto;
+}
+.float-none{
+	float: none !important;
+}
+.text-uppercase{
+	text-transform: uppercase;
+}
+.symbol-img{
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+    margin: 40px auto;
+}
+.title-font{
+	color: #5e5e5e;
+    font-size: 64px;
+    line-height: 74px;
+    margin: 0 0 10px 0;
+}
+.sub-content{
+	color: #000;
+	font-size: 20px;
+    line-height: 30px;
+}
+.learn-btn{
+	color: #7f8080;
+    font-size: 24px;
+    width: auto;
+    border-radius: 30px;
+    border: 1px solid #7f8080;
+    height: 60px;
+    padding: 0 55px;
+    background-color: #fff;
+    transition: all 0.5s ease;
+    margin-top: 15px;
+}
+.learn-btn:hover{
+	background-color: #7f8080;
+	color: #fff;
+	transition: all 0.5s ease;
+}
+.sub-title{
+	color: #5e5e5e;
+    font-size: 30px;
+    line-height: 40px;
+}
+.email-info {
+    background-color: #929292;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+	line-height: 40px;
+	margin-bottom: 50px;
+	font-family: 'Poppins-Thin';
+	font-weight: 600;
+}
+.email-info a{
+	text-decoration: underline;
+	color: #fff;
+	font-weight: bold;
+	font-family: 'Poppins-Regular';
+	font-weight: 500;
+}
+.first-section{
+	height: 100vh;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+/*media*/
+@media screen and (max-width: 1280px){
+	.symbol-img {
+	    width: 280px;
+	    height: 280px;
+	    margin: 20px auto;
+	}
+}
+
+@media screen and (max-width: 1170px){
+	.title-font {
+	    font-size: 50px;
+	    line-height: 60px;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.title-font {
+	    font-size: 40px;
+	    line-height: 50px;
+	}
+	.symbol-img {
+	    width: 200px;
+	    height: 200px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.title-font {
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+	.sub-title,
+	.email-info {
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+	.learn-btn {
+	    font-size: 20px;
+	    height: 50px;
+	}
+}

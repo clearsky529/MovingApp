@@ -1,0 +1,59 @@
+image: atlassian/default-image:2
+
+pipelines:
+  branches:
+    production_v2:
+      - step: &composer
+          name: Composer & Migrations
+          image: php:8.2
+          size: 2x
+          script:
+            - php -v
+            - apt-get update
+            - apt-get update && apt-get install -y zip libfreetype6-dev libjpeg62-turbo-dev libpng-dev libzip-dev
+            - docker-php-ext-install gd pcntl zip pdo_mysql exif bcmath
+            - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+            - composer self-update 2.7.6
+            - php -d memory_limit=-1 /usr/local/bin/composer install
+            # library to check code security
+            #- composer outdated
+            #- php artisan key:generate
+            #- php artisan migrate
+            #- php artisan optimize
+            - cp .env.pipeline .env
+            - php artisan optimize:clear
+            #- composer dumpautoload
+            - zip -r kika-app-code.zip .
+          artifacts:
+            #- .env
+            #- vendor/**
+            - kika-app-code.zip
+          services:
+            - docker
+
+      #- step: &build
+        #  name: Building Application
+        #  image: atlassian/default-image:2
+        #  script:
+            # zipping application and removing .env file
+        #    - zip -r kika-app-code.zip . -x .env
+        #  artifacts:
+        #    - kika-app-code.zip
+        #  services:
+        #    - docker
+
+      - step: &deploy
+          name: Deploy to Elasticbeanstalk
+          script:
+            - pipe: atlassian/aws-elasticbeanstalk-deploy:1.4.0
+              variables:
+                ENVIRONMENT_NAME: 'Kika-prod-laravel-app-new-env'
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                S3_BUCKET: "kika-app-code-upload-pipeline"
+                APPLICATION_NAME: "kika-prod-laravel-app-new"
+                ZIP_FILE: "kika-app-code.zip"
+                VERSION_LABEL: kika-app-prod_${BITBUCKET_COMMIT:0:8}
+          services:
+            - docker
